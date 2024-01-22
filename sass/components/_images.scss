@@ -1,0 +1,55 @@
+.first-chair {
+  background-image: url(/image/first\ chair.png) no-repeat;
+  background-size: cover;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/first\ chair@2x.png) no-repeat;
+    background-size: cover;
+  }
+  @media (min-resolution: 288dpi),
+    (min-resolution: 3dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/first\ chair@3x.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+.lamp {
+  background-image: url(/image/lamp.png) no-repeat;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/lamp@2x.png) no-repeat;
+  }
+  @media (min-resolution: 288dpi),
+    (min-resolution: 3dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/lamp@3x.png) no-repeat;
+  }
+}
+
+.second-chair {
+  background-image: url(/image/second\ chair.png) no-repeat;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/second\ chair@2x.png) no-repeat;
+  }
+  @media (min-resolution: 288dpi),
+    (min-resolution: 3dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/second\ chair@3x.png) no-repeat;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 1200px) {
+    display: inline;
+  }
+}
