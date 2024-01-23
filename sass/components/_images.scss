@@ -1,18 +1,15 @@
 .first-chair {
-  background-image: url(/image/first\ chair.png) no-repeat;
-  background-size: cover;
+  background-image: url(/image/chair.png) no-repeat;
 
   @media (min-resolution: 192dpi),
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 3) {
-    background-image: url(/image/first\ chair@2x.png) no-repeat;
-    background-size: cover;
+    background-image: url(/image/chair@2x.png) no-repeat;
   }
   @media (min-resolution: 288dpi),
     (min-resolution: 3dppx),
     (min-device-pixel-ratio: 3) {
-    background-image: url(/image/first\ chair@3x.png) no-repeat;
-    background-size: cover;
+    background-image: url(/image/chair@3x.png) no-repeat;
   }
 }
 
@@ -31,25 +28,63 @@
   }
 }
 
-.second-chair {
-  background-image: url(/image/second\ chair.png) no-repeat;
+.nightstand {
+  background-image: url(/image/Nightstand.png) no-repeat;
 
   @media (min-resolution: 192dpi),
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 3) {
-    background-image: url(/image/second\ chair@2x.png) no-repeat;
+    background-image: url(/image/Nightstand@2x.png) no-repeat;
   }
   @media (min-resolution: 288dpi),
     (min-resolution: 3dppx),
     (min-device-pixel-ratio: 3) {
-    background-image: url(/image/second\ chair@3x.png) no-repeat;
+    background-image: url(/image/Nightstand@3x.png) no-repeat;
   }
 }
 
+.stool {
+  background-image: url(/image/stool.png) no-repeat;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/stool@2x.png) no-repeat;
+  }
+  @media (min-resolution: 288dpi),
+    (min-resolution: 3dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/stool@3x.png) no-repeat;
+  }
+}
+
+.vase {
+  background-image: url(/image/vase.png) no-repeat;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/vase@2x.png) no-repeat;
+  }
+  @media (min-resolution: 288dpi),
+    (min-resolution: 3dppx),
+    (min-device-pixel-ratio: 3) {
+    background-image: url(/image/vase@3x.png) no-repeat;
+  }
+}
 .images {
   display: flex;
-  justify-content: space-around;
+  gap: 38px;
+  justify-content: center;
   @media (max-width: 1200px) {
     display: inline;
   }
+}
+
+.product-info {
+  color: white;
+}
+
+.product-price {
+  color: white;
 }

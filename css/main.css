@@ -33,19 +33,16 @@ body {
 }
 
 .first-chair {
-  background-image: url(/image/first\ chair.png) no-repeat;
-  background-size: cover;
+  background-image: url(/image/chair.png) no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx), (min-device-pixel-ratio: 3) {
   .first-chair {
-    background-image: url(/image/first\ chair@2x.png) no-repeat;
-    background-size: cover;
+    background-image: url(/image/chair@2x.png) no-repeat;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx), (min-device-pixel-ratio: 3) {
   .first-chair {
-    background-image: url(/image/first\ chair@3x.png) no-repeat;
-    background-size: cover;
+    background-image: url(/image/chair@3x.png) no-repeat;
   }
 }
 
@@ -63,17 +60,45 @@ body {
   }
 }
 
-.second-chair {
-  background-image: url(/image/second\ chair.png) no-repeat;
+.nightstand {
+  background-image: url(/image/Nightstand.png) no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx), (min-device-pixel-ratio: 3) {
-  .second-chair {
-    background-image: url(/image/second\ chair@2x.png) no-repeat;
+  .nightstand {
+    background-image: url(/image/Nightstand@2x.png) no-repeat;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx), (min-device-pixel-ratio: 3) {
-  .second-chair {
-    background-image: url(/image/second\ chair@3x.png) no-repeat;
+  .nightstand {
+    background-image: url(/image/Nightstand@3x.png) no-repeat;
+  }
+}
+
+.stool {
+  background-image: url(/image/stool.png) no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx), (min-device-pixel-ratio: 3) {
+  .stool {
+    background-image: url(/image/stool@2x.png) no-repeat;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx), (min-device-pixel-ratio: 3) {
+  .stool {
+    background-image: url(/image/stool@3x.png) no-repeat;
+  }
+}
+
+.vase {
+  background-image: url(/image/vase.png) no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx), (min-device-pixel-ratio: 3) {
+  .vase {
+    background-image: url(/image/vase@2x.png) no-repeat;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx), (min-device-pixel-ratio: 3) {
+  .vase {
+    background-image: url(/image/vase@3x.png) no-repeat;
   }
 }
 
@@ -81,11 +106,102 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  gap: 38px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media (max-width: 1200px) {
   .images {
     display: inline;
+  }
+}
+
+.product-info {
+  color: white;
+}
+
+.product-price {
+  color: white;
+}
+
+.footer {
+  background-image: url(/image/bgimage.png);
+  width: 1400px;
+  height: 1000px;
+}
+@media (max-width: 1200px) {
+  .footer {
+    background-image: url(/image/bgimage.png);
+    width: 390px;
+    height: 370px;
+  }
+}
+
+.footer-title {
+  color: white;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 60px;
+}
+@media (max-width: 1200px) {
+  .footer-title {
+    font-size: 24px;
+    margin-left: 14px;
+  }
+}
+
+.footer-text {
+  color: white;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 60px;
+}
+@media (max-width: 1200px) {
+  .footer-text {
+    font-size: 14px;
+    margin-left: 14px;
+  }
+}
+
+.footer-list {
+  color: white;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 60px;
+}
+@media (max-width: 1200px) {
+  .footer-list {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+}
+
+.input {
+  padding: 67px 450px 67px 113px;
+  margin-left: 60px;
+}
+@media (max-width: 1200px) {
+  .input {
+    padding: 10px 45px 10px 22px;
+    margin-left: 14px;
+  }
+}
+
+.button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  padding: 67px 93px;
+  background-color: #2a254b;
+}
+@media (max-width: 1200px) {
+  .button {
+    padding: 10px 20px;
+    margin-left: 4px;
   }
 }
